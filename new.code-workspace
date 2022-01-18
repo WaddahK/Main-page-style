@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "..\\..\\..\\Desktop\\index"
+	},
+	{
+		"path": "..\\..\\..\\Desktop\\new html"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "col3"
+  }
+}

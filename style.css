@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color:#6c5ce7;
+}
+/*---------header----------------*/
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .logo h2{
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: white;
+}
+/*----------navigation---------*/
+.container .nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.container .nav ul li{
+    list-style: none;
+    padding: 0 1rem;
+}
+.container .nav ul li a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.3s ease;
+}
+.container .nav ul li a:hover {
+    color: #0ea5e7;
+}
+.container .nav ul li a span {
+    font-size: 0.9rem;
+    border: 1px solid #6928ff;
+    border-radius: 25px;
+    padding: 12px 20px;
+    background-color: #6927ff;
+    color: white;
+}
+/*------------Home---------------------*/
+.home{
+    margin: 0.7rem;
+    padding-top: 4rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.home .text {
+    width: 35%;
+}
+.home .text h5{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color:#a29bfe;
+}
+.home .text h1{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color:white;
+    line-height: 65PX;
+    padding-bottom: 40px;
+}
+.home .text P {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color:#AFb9cb;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+.home .text button {
+    background-color: #0ea5e7;
+    border: 1px solid #6927ff;
+    font-size: 1rem;
+    font-weight:600;
+    padding:20px 25px;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0px 15px 30px -12px rgb(0 0 0 / 20%);
+    transition: 0.4s ease;
+}
+.home .text button:hover{
+    background-color: transparent;
+}
+.home .back{
+    width: 52%;
+}
+.home .back img {
+    width: 400px;
+    animation: up-down 3s ease-in-out infinite alternate-reverse both;
+    
+}
+
+@keyframes up-down {
+    0%{
+        transform: translateY(12px);
+    }
+    0%{
+        transform: translateY(12px);
+    }
+}
